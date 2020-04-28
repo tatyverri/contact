@@ -121,7 +121,7 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: blue; box-shadow: 0px 1px 10px #888 }
+	.menu-mobile-dark { background-color: #FFA500; box-shadow: 0px 1px 10px #888 }
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
@@ -132,12 +132,12 @@ body { font-family: sans-serif }
 	.menu-mobile-dark li a { color: #fff }
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:blue;
+		background-color: #fff; border-color: #fff; color:#FFA500;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: blue; color:#fff;
+		background-color: #FFA500; color:#fff;
 	}
 
 	/*== Light mobile menu == */
@@ -146,18 +146,18 @@ body { font-family: sans-serif }
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
 	.menu-mobile-light .item-icon .bar3 {
-		background-color: blue;
+		background-color: #FFA500;
 	}
 
-	.menu-mobile-light li a { color: blue }
+	.menu-mobile-light li a { color: #FFA500 }
 
 	.menu-mobile-light li a.btn-solid { 
-		background-color: blue; border-color: #fff; color:#fff;
+		background-color: #FFA500; border-color: #fff; color:#fff;
 	}
 
 	.menu-mobile-light li a.btn-solid:hover, 
 	.menu-mobile-light li a.btn-solid:active { 
-		background-color: #fff; color:blue; border-color: blue
+		background-color: #fff; color:#FFA500; border-color: #FFA500
 	}
 
 	/*== Sticky mobile menu == */
@@ -222,7 +222,7 @@ body { font-family: sans-serif }
 	.container-menu-desktop .item-menu ul li a.btn-solid:hover, 
 	.container-menu-desktop .item-menu ul li a.btn-solid:active { 
 		text-decoration: none;
-		background-color: blue;
+		background-color: #FFA500;
 		color:#fff;
 	}
 
@@ -256,29 +256,29 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 
 	/*== Dark desktop menu == */
-	.menu-desktop-dark { background-color: blue; box-shadow: 0px 1px 10px #888; }
+	.menu-desktop-dark { background-color: #FFA500; box-shadow: 0px 1px 10px #888; }
 	.menu-desktop-dark .item-menu ul li a { color: #fff }
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:blue;
+		background-color: #fff; border-color: #fff; color:#FFA500;
 	}
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:active { 
-		background-color: blue; color:#fff;
+		background-color: #FFA500; color:#fff;
 	}
 
 	/*== Light desktop menu == */
 	.menu-desktop-light { background-color: #fff; box-shadow: 0px 1px 10px #888; }
-	.menu-desktop-light .item-menu ul li a { color: blue }
+	.menu-desktop-light .item-menu ul li a { color: #FFA500 }
 
 	.menu-desktop-light .item-menu ul li a.btn-solid { 
-		background-color: blue; border-color: blue; color: #fff;
+		background-color: #FFA500; border-color: #FFA500; color: #fff;
 	}
 
 	.menu-desktop-light .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-light .item-menu ul li a.btn-solid:active { 
-		background-color: #fff; color: blue;
+		background-color: #fff; color: #FFA500;
 	}
 
 	/*== Sticky desktop menu == */
@@ -339,7 +339,7 @@ body { background-color: lightgray }
 
 	.flex-row div:first-child {
 		width: 48px;
-		background: blue;
+		background: #FFA500;
 		z-index: 9
 	}
 
@@ -384,7 +384,7 @@ body { background-color: lightgray }
 	.contact-form input.form-field:focus {
 		border-top: solid 2px #ECECFF;
 		border-right: solid 2px #ECECFF;
-		border-bottom: solid 2px blue;
+		border-bottom: solid 2px #FFA500;
 		border-left: solid 2px #ECECFF;
 		background-color: #ECECFF
 	}
@@ -412,12 +412,12 @@ body { background-color: lightgray }
 		background-color: #ECECFF;
 		border-top: solid 2px #ECECFF;
 		border-right: solid 2px #ECECFF;
-		border-bottom: solid 2px blue;
+		border-bottom: solid 2px #FFA500;
 		border-left: solid 2px #ECECFF;
 	}
 
 	.contact-form span.field-icon {
-		background: blue;
+		background: #FFA500;
 		color:#fff;
 	}
 
@@ -431,7 +431,7 @@ body { background-color: lightgray }
 
 	.contact-form .btn-submit {
 		padding: 14px 26px;
-		background-color: blue;
+		background-color: #FFA500;
 		cursor: pointer;
 		text-align:right;
 		border-radius: 0;
@@ -518,8 +518,8 @@ body { background-color: lightgray }
 .flex-grid-footer p a:active {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 1px lightblue;
-	color: lightblue;
+	border-bottom: solid 1px lightgray;
+	color: lightgray;
 }
 
 
